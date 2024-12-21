@@ -1,0 +1,229 @@
+{
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5 !important;
+}
+.companyLogo {
+  height: 70px;
+  background-image: url(images/Image-Photoroom.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.headerLogo {
+  background-image: url(../images/mjp.png);
+  height: 50px;
+  width: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.menu-button {
+  display: flex;
+  padding: 5px 15px;
+  border-radius: 4px;
+  margin-bottom: 18px;
+  color: #898989;
+  cursor: pointer;
+}
+
+.menu {
+  padding: 15px;
+  background-color: white;
+  border-radius: 6px;
+  height: calc(100vh - 100px);
+}
+.menu-button.active,
+.menu-button.active > * {
+  background-color: #01366e !important;
+  color: #d8eaff;
+}
+.menu-button:hover {
+  background-color: #01366e !important;
+  color: #d8eaff;
+  cursor: pointer;
+}
+.menu-icon {
+  height: 26px;
+  width: 26px;
+  margin-right: 10px;
+}
+header {
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+}
+.card-kpi {
+  height: 145px;
+  min-width: 220px;
+  background: white;
+  border-radius: 6px;
+  padding: 10px;
+  margin-right: 10px;
+  width: 32%;
+}
+.kpi-title {
+  color: #342d2d;
+  font-size: 1rem;
+}
+.kpi-value {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 15px;
+}
+.card-data {
+  margin-top: 20px;
+}
+.card-strip {
+  border-bottom: 1px solid #ebebeb;
+}
+#ContentPlaceHolder1_checkboxid{margin-right:10px}
+/*//Add by Sachin*/
+/*.menu-button {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+    .menu-button:hover {
+        background-color: lightgray;
+    }
+
+    .menu-button.active {
+        background-color: blue;
+        color: white;
+    }*/
+/*Admin css*/
+main {
+    background-color: white;
+    height: fit-content;
+    border-radius: 6px;
+    padding: 15px;
+    padding-bottom: 30px;
+    min-height: 300px;
+}
+
+table thead > tr > th {
+    background-color: #ebf5ff !important;
+    font-size: 14px;
+    font-weight: normal;
+    color: #002e8d !important;
+}
+
+.deleteUser {
+    color: red;
+    cursor: pointer;
+}
+
+.editUser {
+    color: green;
+    cursor: pointer;
+}
+/*
+.headerLogo {
+  background-image: url(../images/mjp.png);
+  height: 50px;
+  width: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}*/
+.btn-primary {
+    background-color: #255eb9 !important;
+    border-color: #255eb9 !important;
+}
+
+    .btn-primary:hover {
+        background-color: #00368b !important;
+    }
+
+.btnAdd {
+    position: absolute;
+    right: 28px;
+    margin-top: 15px;
+    margin-bottom: 0 !important;
+}
+
+.dt-search {
+/*    margin-right: 124px;*/
+}
+
+.user {
+    height: fit-content;
+}
+
+footer {
+    height: 50px;
+    background-color: #16315c;
+    margin-top: 30px;
+    color: #b9d4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 12px;
+    height: fit-content;
+    margin: 0;
+}
+
+.showButtons {
+    transform: translateX(0px) !important;
+    transition: all 500ms ease-in-out;
+}
+#ContentPlaceHolder1_GridView1 tbody > tr td:last-child,
+#ContentPlaceHolder1_GridView1 tbody > tr td:nth-last-child(2){
+    text-align: center;
+}
+div#userDetails {
+    margin-top: 65px !important;
+}
+/* Media Queries */
+@media screen and (max-width: 767px) {
+    .menu {
+        display: block;
+    }
+
+    .buttonContainer {
+        background-color: white;
+        padding: 10px 15px;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        z-index: 1;
+        flex-direction: column;
+        box-shadow: 0px 0px 2px 0px #cdcdcd;
+        width: 200px;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+        transform: translateX(200px);
+        transition: all 500ms ease-in-out;
+    }
+
+    .btnClose {
+        display: block !important;
+        margin: 10px 0;
+        color: gray;
+    }
+
+    .buttonContainer .btn-primary {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .dt-length {
+        text-align: left !important;
+    }
+
+    .dt-search {
+        text-align: right !important;
+        margin-right: 0 !important;
+    }
+
+    .dt-layout-full {
+        overflow: auto;
+    }
+}

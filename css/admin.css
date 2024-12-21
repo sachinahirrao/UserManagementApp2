@@ -1,0 +1,128 @@
+/*body {
+  background-color: #ebf5ff;
+}
+
+header {
+  height: 70px;
+*//*}
+main {
+  background-color: white;
+  height: fit-content;
+  border-radius: 6px;
+  padding: 15px;
+  padding-bottom: 30px;
+  min-height: 300px;
+}
+table thead > tr > th {
+  background-color: #ebf5ff !important;
+  font-size: 14px;
+  font-weight: normal;
+  color: #002e8d !important;
+}
+.deleteUser {
+  color: red;
+  cursor: pointer;
+}
+.editUser {
+  color: green;
+  cursor: pointer;
+}*/
+/*
+.headerLogo {
+  background-image: url(../images/mjp.png);
+  height: 50px;
+  width: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}*/
+/*.btn-primary {
+  background-color: #255eb9 !important;
+  border-color: #255eb9 !important;
+}
+.btn-primary:hover {
+  background-color: #00368b !important;
+}
+button#btnAdd {
+  position: absolute;
+  right: 28px;
+  margin-top: 8px;
+  margin-bottom: 0 !important;
+}
+.dt-search {
+  margin-right: 80px;
+}
+.user {
+  height: fit-content;
+}
+footer {
+  height: 50px;
+  background-color: #16315c;
+  margin-top: 30px;
+  color: #b9d4ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  font-size: 12px;
+  height: fit-content;
+  margin: 0;
+}*/
+/*
+.menu {
+  font-size: 1.4rem;
+  display: none;
+  cursor: pointer;
+}*/
+/*.showButtons {
+  transform: translateX(0px) !important;
+  transition: all 500ms ease-in-out;
+}*/
+/* .buttonContainer button {
+  background-color: #006d64 !important;
+  border-color: #006d64 !important;
+  color: white;
+} */
+
+/* Media Queries */
+
+/*@media screen and (max-width: 767px) {
+  .menu {
+    display: block;
+  }
+  .buttonContainer {
+    background-color: white;
+    padding: 10px 15px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 1;
+    flex-direction: column;
+    box-shadow: 0px 0px 2px 0px #cdcdcd;
+    width: 200px;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    transform: translateX(200px);
+    transition: all 500ms ease-in-out;
+  }
+  .btnClose {
+    display: block !important;
+    margin: 10px 0;
+    color: gray;
+  }
+  .buttonContainer .btn-primary {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .dt-length {
+    text-align: left !important;
+  }
+  .dt-search {
+    text-align: right !important;
+    margin-right: 0 !important;
+  }
+  .dt-layout-full {
+    overflow: auto;
+  }
+}*/

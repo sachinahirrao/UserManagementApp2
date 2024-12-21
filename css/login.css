@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+body {
+  background-color: #01366e !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  box-shadow: 0px 0px 3px 0px #00000040;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  height: calc(99vh - 30px);
+}
+.loginCompLogo {
+  height: 50px;
+  background-image: url(../images/mjp.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  background-size: contain;
+  margin-bottom: 15px;
+}
+
+.userIcon,
+.PasswordIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 7px;
+  color: gray;
+}
+input#txtUserName,
+#txtPassword {
+  text-indent: 22px;
+}
+
+.iconEyeClose {
+    position: absolute;
+    right: 28px;
+    margin-right: 12px;
+    color: gray;
+    cursor: pointer;
+    margin-top: 6px;
+}
+/*.iconEyeClose {
+    position: absolute;
+    right: 38px;
+    color: gray;
+    cursor: pointer;
+    margin-top: 6px;
+}*/
+#idBtnLogin {
+  background-color: #01366e !important;
+}
+.login-aside {
+  background-image: url(../images/userImg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 100%;
+  border-radius: 6px;
+  opacity: 0.6;
+}
+.companyName {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-left: 10px;
+}
+.page-title {
+  z-index: 3;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 20px;
+  color: #96bcff;
+  font-size: 1.3rem;
+}
